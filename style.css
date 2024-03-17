@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Russo+One&family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Secular One", sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 120vh;
+    max-height: 1000vh;
+    margin: 35px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.09);
+    background-color: #fff;
+}
+.container .contan-box{
+    margin-top: 30px;
+    text-align: center;
+}
+.container form{
+    margin-top: 20px;
+}
+.form input{
+    margin-top: 10px;
+    padding: 10px 35px;
+    border: none;
+    outline: 1px solid #ff5500;
+    border-radius: 30px;
+    color: #000;
+}
+button{
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffa500;
+    color: #000;
+}
+.list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.list li{
+    margin-top: 15px;
+    padding: 50px;
+    box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.list li .fa-circle-check{
+    font-size: 50px;
+    margin-top: 20px;
+    color: #1ada1a;
+}
+.list li .fa-circle-xmark{
+    font-size: 20px;
+    color: #848484;
+    position: relative;
+    bottom: 180px;
+    left: 100px;
+    cursor: pointer;
+}
+.list li .fa-circle-exclamation{
+    font-size: 50px;
+    margin-top: 20px;
+    color: #ff5500;
+}
